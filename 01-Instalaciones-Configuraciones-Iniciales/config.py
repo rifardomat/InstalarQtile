@@ -122,6 +122,8 @@ keys = [
     
     #Teclas para lanzar el menu rofi
     Key([mod], "b", lazy.spawn("google-chrome-stable"), desc="Abrir Navegador"),
+    #Teclas para lanzar code
+    Key([mod], "c", lazy.spawn("code"), desc="Abrir Visual Studio Code"),
 
 
     # Toggle between different layouts as defined below
